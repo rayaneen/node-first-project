@@ -1,0 +1,108 @@
+html {
+  font-size: 100%;
+  box-sizing: border-box;
+}
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: radial-gradient(circle at bottom, navy 0, black 100%) !important;
+  height: 100vh;
+}
+
+#footer {
+  display: flex;
+  align-items: center;
+  padding: 0px 50px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  margin: 0;
+  color: lightgray;
+  font-size: 10px;
+  text-align: center;
+  align-content: center;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: center;
+}
+a {
+  color: white !important;
+}
+.card-name {
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 40px;
+  font-weight: bold;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+  border-radius: 16px 0px 0px 16px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+#btn {
+  background-color: #000069;
+  color: #ffffff;
+  border-radius: 8px;
+  border: 1px solid #000000;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+  margin: 16px;
+  left: 50%;
+  cursor: pointer;
+}
+
+#card {
+  border-radius: 16px;
+  height: 100%;
+
+}
+#img {
+  margin:0;
+  padding:0;
+  height: 350px;
+
+}
+.title {
+  width: 100%;
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  font-size: 32px;
+  text-align: center;
+  font-weight: 100;
+}
+
+.card-info {
+  background-color: #f1faee;
+  height: 100%;
+  margin: 0;
+  padding: 8px;
+  border-radius: 0 16px 16px 0;
+  font-family: 'Roboto', sans-serif;
+}
+.details {
+  list-style: none;
+  margin: 0;
+  padding: 16px;
+  font-weight: 300;
+  font-size: 18px;
+  margin-left: 16px;
+}
+
+h2 {
+  font-size: 2rem;
+  text-align: center;
+  padding: 20px 0px;
+  background-color: #000069;
+  color: white !important;
+  border-radius: 16px;
+}
