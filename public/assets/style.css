@@ -13,25 +13,6 @@ body {
   height: 100vh;
 }
 
-#footer {
-  display: flex;
-  align-items: center;
-  padding: 0px 50px;
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  margin: 0;
-  color: lightgray;
-  font-size: 10px;
-  text-align: center;
-  align-content: center;
-  flex-wrap: nowrap;
-  flex-direction: row;
-  justify-content: center;
-}
-a {
-  color: white !important;
-}
 .card-name {
   background-size: cover;
   background-position: center;
@@ -82,7 +63,7 @@ a {
 }
 
 .card-info {
-  background-color: #f1faee;
+  background-color: #ffffff;
   height: 100%;
   margin: 0;
   padding: 8px;
